@@ -1,1 +1,44 @@
+# C/C++
+*.c linguist-language=C
+*.h linguist-language=C
+*.cpp linguist-language=C++
+*.hpp linguist-language=C++
+*.cc linguist-language=C++
+*.cxx linguist-language=C++
+
+# Python
+*.py linguist-language=Python
+*.pyw linguist-language=Python
+*.pyx linguist-language=Python
+*.pxd linguist-language=Python
+
+# Java
 *.java linguist-language=Java
+*.class linguist-language=Java
+*.jar linguist-language=Java
+
+# JavaScript
+*.js linguist-language=JavaScript
+*.mjs linguist-language=JavaScript
+
+# TypeScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# JSX
+*.jsx linguist-language=JavaScript
+
+# HTML (if you want to include it in stats)
+*.html linguist-language=HTML
+*.htm linguist-language=HTML
+
+# CSS (if you want to include it in stats)
+*.css linguist-language=CSS
+*.scss linguist-language=CSS
+*.sass linguist-language=CSS
+
+# Ignore certain files/directories
+vendor/* linguist-vendored
+node_modules/* linguist-vendored
+dist/* linguist-vendored
+build/* linguist-vendored
